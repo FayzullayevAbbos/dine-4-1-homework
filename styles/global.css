@@ -1,0 +1,55 @@
+:root {
+  --w-fonts: #fff;
+  --b-fonts: #242b37;
+  --hero-bg: #111;
+}
+html {
+  font-size: 62.5%;
+  font-family: "League Spartan", sans-serif;
+}
+/*---------------- flex-------------------- */
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.items-end {
+  align-items: end;
+}
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.text-center {
+  text-align: center;
+}
+.big-container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.g-10 {
+  gap: 1rem;
+}
+.g-27 {
+  gap: 27px;
+}

@@ -1,0 +1,153 @@
+@media screen and (max-width: 1285px) {
+  .main2-lines {
+    right: -3rem;
+    width: 10rem;
+    height: 6rem;
+  }
+  /* .container {
+    padding: 0 2rem;
+  } */
+}
+@media only screen and (max-width: 1185px) {
+  header {
+    background: url("../images/png/hero-bg-tablet.png") top center no-repeat,
+      var(--hero-bg);
+    background-size: var(--size-hero);
+    --size-hero: 55rem;
+  }
+  header nav {
+    justify-content: center;
+    height: 35vh;
+  }
+  .hero {
+    height: 65vh;
+    align-items: center;
+  }
+  .hero .p {
+    max-width: 575px;
+    margin-bottom: 2rem;
+  }
+  .h1 {
+    text-align: center;
+    font-size: 4.8rem;
+    max-width: 37rem;
+    line-height: 48px; /* 100% */
+    letter-spacing: -0.5px;
+  }
+  .p {
+    text-align: center;
+  }
+  .main1 {
+    flex-direction: column;
+    margin-bottom: 10rem;
+  }
+  header a .btn {
+    margin-bottom: 15rem;
+  }
+  .main2 {
+    flex-direction: column;
+  }
+  .main1 div {
+    align-items: center;
+  }
+  .main2 div {
+    align-items: center;
+    order: 2;
+    margin-bottom: 11.8rem;
+  }
+  .tablet {
+    display: none;
+  }
+  .main2 > img {
+    width: 573px;
+    height: 360px;
+    transform: translateY(0);
+    margin-bottom: 10rem;
+    box-shadow: none;
+  }
+  .h2 {
+    text-align: center;
+  }
+  .main1 > img:nth-child(1) {
+    width: 573px;
+    height: 360px;
+    display: none;
+  }
+  .main1 > img:nth-child(2) {
+    box-shadow: none;
+  }
+  .main2-lines {
+    display: none;
+  }
+  .feature > div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature > div > div:nth-child(1) {
+    align-items: center;
+  }
+  .food .p {
+    text-align: start;
+  }
+  .booking1 {
+    flex-direction: column;
+  }
+  .booking1 > img:nth-child(1) {
+    width: 573px;
+    height: 360px;
+    display: none;
+  }
+  .booking1 > img:nth-child(2) {
+    box-shadow: none;
+  }
+  .none {
+    display: block;
+  }
+  main {
+    background: url("../images/png/main1-bg.png") no-repeat left -515px top 25rem,
+      url("../images/png/main2-bg.png") no-repeat right -515px bottom;
+  }
+  .booking-items {
+    align-items: center;
+  }
+  .booking-top {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  .bottom {
+    display: none;
+  }
+  .bottom1 {
+    padding: 8.8rem;
+    background: url("../images/png/bottom-bg.png") no-repeat, var(--hero-bg);
+    background-size: cover;
+    display: block;
+  }
+   .bottom1 > div{
+    gap: 24px;
+   }
+  .bottom1 .h2 {
+    max-width: 615px;
+    color: var(--w-fonts);
+  }
+  footer  {
+   display: none;
+    
+  }
+  .g-42{
+    gap: 42px;
+  }
+  .footer{
+    display: block;
+  }
+  .footer > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer a:hover{
+    color: darkcyan ;
+  }
+
+}

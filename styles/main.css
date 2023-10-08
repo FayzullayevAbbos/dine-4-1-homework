@@ -1,0 +1,215 @@
+header {
+  background: url("../images/png/header-bg.png") right center no-repeat,
+    var(--hero-bg);
+}
+nav {
+  height: 13vh;
+  background: none;
+}
+nav img {
+  width: 103px;
+  height: 40px;
+}
+.hero {
+  background: none;
+  height: 87vh;
+}
+.h1 {
+  max-width: 53rem;
+  color: var(--w-fonts);
+  font-size: 8rem;
+  font-weight: 300;
+  line-height: 80px; /* 100% */
+  letter-spacing: -1px;
+}
+.h2 {
+  max-width: 44.5rem;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  letter-spacing: -0.5px;
+}
+.h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.25px;
+}
+.p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 45.5rem;
+}
+.p-w {
+  color: var(--w-fonts);
+}
+.p-b {
+  color: var(--b-fonts);
+}
+p .hero .p {
+  margin-bottom: 3rem;
+}
+a .btn {
+  padding: 2.4rem 5.5rem;
+  border: 1px solid var(--w-fonts);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+  color: var(--w-fonts);
+  background: inherit;
+  cursor: pointer;
+  transition-duration: 280ms;
+}
+.hero .btn:hover {
+  color: var(--b-fonts);
+  background: var(--w-fonts);
+  transform: scale(1.05);
+  will-change: initial;
+}
+.mb-28 {
+  margin-bottom: 2.8rem;
+}
+main {
+  background: url("../images/png/main1-bg.png") no-repeat left top 25rem,
+    url("../images/png/main2-bg.png") no-repeat right bottom;
+}
+
+.main1 .transform {
+  transform: translateY(-7rem);
+  -webkit-box-shadow: 5px 20px 26px 0px rgba(34, 60, 80, 0.39);
+  -moz-box-shadow: 5px 20px 26px 0px rgba(34, 60, 80, 0.39);
+  box-shadow: 5px 20px 26px 0px rgba(34, 60, 80, 0.39);
+}
+.relative {
+  position: relative;
+}
+.main2 > img {
+  -webkit-box-shadow: 0px -8px 26px 0px rgba(34, 60, 80, 0.39);
+  -moz-box-shadow: 0px -8px 26px 0px rgba(34, 60, 80, 0.39);
+  box-shadow: 0px -8px 26px 0px rgba(34, 60, 80, 0.39);
+  transform: translateY(8rem);
+}
+.main2 {
+  position: relative;
+}
+.main2-lines {
+  position: absolute;
+  right: -114px;
+  z-index: 1000;
+  transform: translateX(10px);
+}
+.feature {
+  background: var(--hero-bg);
+}
+.food div .h3 {
+  max-width: 35rem;
+}
+.food div p {
+  max-width: 35rem;
+  font-size: 1.6rem;
+}
+
+.food img {
+  padding: 2.4rem 0;
+}
+/* .food :nth-child(1) {
+    padding-top:2.4rem ;
+} */
+.food-father > div:nth-child(1),
+.food-father > div:nth-child(2) {
+  border-bottom: 1px solid rgba(225, 225, 225, 0.1494);
+}
+.food {
+  gap: 6.2rem;
+  position: relative;
+}
+.feat {
+  padding: 20rem 0 9.6rem;
+}
+.pt-24 {
+  margin-top: 2.4rem;
+}
+.feature-line {
+  position: absolute;
+  left: 12.8rem;
+  top: 3.5rem;
+}
+.feature-line1 {
+  position: absolute;
+  left: 12.8rem;
+  top: 1.6rem;
+}
+.booking a .btn {
+  background: var(--b-fonts);
+  color: var(--w-fonts);
+  margin-bottom: 8rem;
+}
+.booking a .btn:hover {
+  background: var(--w-fonts);
+  color: var(--hero-bg);
+  border: 1px solid var(--hero-bg);
+}
+.booking1 {
+  padding: 16rem 0 20rem;
+}
+.booking {
+  background: url("../images/png/booking-bg.png") no-repeat left top;
+}
+.h4 {
+  color: #4c4c4c;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px; /* 164.706% */
+  letter-spacing: 2.5px;
+}
+.g-12 {
+  gap: 12px;
+}
+.h4-op {
+  opacity: 0.5;
+}
+.h4-op:hover {
+  opacity: 1;
+}
+.booking-main {
+  -webkit-box-shadow: 5px 20px 26px 0px rgba(34, 60, 80, 0.39);
+  -moz-box-shadow: 5px 20px 26px 0px rgba(34, 60, 80, 0.39);
+  box-shadow: 5px 20px 26px 0px rgba(34, 60, 80, 0.39);
+}
+.bottom .h2 ,.bottom1 .h2  {
+  max-width: 615px;
+  color: var(--w-fonts);
+}
+.bottom , .bottom1 {
+  padding: 8.8rem;
+  background: url("../images/png/bottom-bg.png") no-repeat, var(--hero-bg);
+  background-size: contain;
+}
+.bottom .btn .bottom1 .btn {
+  background: none;
+}
+.bottom a .btn:hover {
+  background: var(--w-fonts);
+  color: var(--b-fonts);
+  transform: scale(1.05);
+  will-change: initial;
+}
+footer , .footer {
+  background: var(--hero-bg);
+}
+.pad-80-76 {
+  padding: 8rem 0 7.6rem;
+}
+.none{
+    display: none;
+}
+.bottom1{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
